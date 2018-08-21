@@ -1,0 +1,21 @@
+
+<table>
+
+    <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Salary</th>
+        <th>Department</th>
+    </tr>
+
+    #foreach($engineer in $engineers)
+    <tr>
+        <td>$engineer.getFirstName()</td>
+        <td>$engineer.getLastName()</td>
+        <td>$engineer.getSalary()</td>
+        <td>$engineer.getDepartment().getTitle()</td>
+        <td></td>
+
+    </tr>
+    #end
+</table>

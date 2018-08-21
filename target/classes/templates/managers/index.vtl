@@ -1,0 +1,27 @@
+
+<table>
+
+    <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Salary</th>
+        <th>Department</th>
+        <th>Budget</th>
+    </tr>
+
+    #foreach($manager in $managers)
+    <tr>
+        <td>$manager.getFirstName()</td>
+        <td>$manager.getLastName()</td>
+        <td>$manager.getSalary()</td>
+        <td>$manager.getDepartment().getTitle()</td>
+        <td>$manager.getBudget()</td>
+        <td></td>
+
+    </tr>
+    #end
+</table>
+
+
+
+
