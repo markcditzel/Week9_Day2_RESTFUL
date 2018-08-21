@@ -9,7 +9,6 @@
         <th>Budget</th>
     </tr>
 
-    #foreach($manager in $managers)
     <tr>
         <td>$manager.getFirstName()</td>
         <td>$manager.getLastName()</td>
@@ -21,6 +20,3 @@
     </tr>
     #end
 </table>
-
-<a href="/managers/new">Add A New Manager</a>
-<!--<a href="/managers/:id/edit">Add A New Manager</a>-->
